@@ -52,12 +52,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'kpop.urls'
+ROOT_URLCONF = 'tft.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "kpop", "template")],
+        'DIRS': [os.path.join(BASE_DIR, "tft", "template")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'kpop.wsgi.application'
+WSGI_APPLICATION = 'tft.wsgi.application'
 
 
 # Database
